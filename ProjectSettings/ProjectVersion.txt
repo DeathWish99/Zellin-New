@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+m_EditorVersion: 2018.2.11f1
+=======
+>>>>>>> cf367a6fa0c1991dd05616dff9b8973b9d3470d0
+<<<<<<< HEAD
+m_EditorVersion: 2018.2.14f1
+=======
+m_EditorVersion: 2018.2.11f1
+>>>>>>> 6fd58527ca60b3d8e376506fb461fecb2c2dd0f1
+<<<<<<< HEAD
+=======
+m_EditorVersion: 5.4.5p5
+m_StandardAssetsVersion: 0
+>>>>>>> parent of ef52532... Update
+=======
+m_EditorVersion: 5.4.5p5
+m_StandardAssetsVersion: 0
+>>>>>>> parent of ef52532... Update
+=======
+m_EditorVersion: 5.4.5p5
+m_StandardAssetsVersion: 0
+>>>>>>> parent of ef52532... Update
+=======
+m_EditorVersion: 5.4.5p5
+m_StandardAssetsVersion: 0
+>>>>>>> parent of ef52532... Update
+=======
+>>>>>>> parent of 515238d... Revert "Merge branch 'master' of https://github.com/DeathWish99/Zellin"
+>>>>>>> cf367a6fa0c1991dd05616dff9b8973b9d3470d0
+=======
+m_EditorVersion: 2018.2.14f1
+>>>>>>> 73d6e0de7da263f773a359922fe9de77df9a2f0f
