@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
     public GameController gc;
 
+
     private float doubleJumpCounter = 0.0f;
     private bool isOnGround = true;
     private bool isDoubleJumping = false;
@@ -96,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         if (gc.playerHealth <= 0)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene(6);
         }
     }
 

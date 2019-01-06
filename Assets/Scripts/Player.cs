@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
     public int indexScene = 3;
     public Camera cam;
     public GameController gc;
+    
 
     private float doubleJumpCounter = 0.0f;
     private bool isOnGround = true;
