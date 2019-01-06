@@ -5149,8 +5149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 70
   jumpForce: 40
-  doubleJumpCooldown: 0.5
-  indexScene: 6
+  doubleJumpCooldown: 0.1
+  indexScene: 4
   cam: {fileID: 770400240}
   gc: {fileID: 1896053282}
 --- !u!95 &1733733212

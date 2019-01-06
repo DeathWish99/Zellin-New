@@ -57,13 +57,13 @@ public class Player : MonoBehaviour {
 
         if (translation < 0)
         {
-            transform.localScale = new Vector3(-12.21469f, 11.1661f, 1);
+            transform.localScale = new Vector3(-1f, 1f, 1);
             GetComponent<Animator>().SetBool("right", true);
 
         }
         else if (translation > 0)
         {
-            transform.localScale = new Vector3(12.21469f, 11.1661f, 1);
+            transform.localScale = new Vector3(1f, 1f, 1);
             GetComponent<Animator>().SetBool("right", true);
         }
         else
@@ -92,7 +92,7 @@ public class Player : MonoBehaviour {
         if (gc.playerHealth <= 0)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(10);
         }
 
         //attack :
@@ -128,6 +128,10 @@ public class Player : MonoBehaviour {
         {
             isOnGround = true;
             isDoubleJumping = false;
+        }
+        else
+        {
+            isOnGround = false;
         }
     }
 

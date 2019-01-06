@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 100.0f;
     public float jumpForce = 1.0f;
     public float doubleJumpCooldown = 0.1f;
-    public int indexScene = 3;
+    public int indexScene = 2;
     public Camera cam;
     public GameController gc;
 
@@ -97,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         if (gc.playerHealth <= 0)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(10);
         }
     }
 
