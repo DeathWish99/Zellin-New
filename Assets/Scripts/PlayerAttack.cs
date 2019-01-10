@@ -21,7 +21,7 @@ public class PlayerAttack : MonoBehaviour
         {
 
             GetComponent<Animator>().SetBool("isAttacking", false);
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.U))
             {
                 Debug.Log("SWING");
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
