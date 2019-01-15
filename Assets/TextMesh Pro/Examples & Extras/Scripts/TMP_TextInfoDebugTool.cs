@@ -6,7 +6,7 @@ namespace TMPro.Examples
 {
 
     [ExecuteInEditMode]
-    public class TMP_TextInfoDebugTool : UnityEngine.MonoBehaviour
+    public class TMP_TextInfoDebugTool : MonoBehaviour
     {
         public bool ShowCharacters;
         public bool ShowWords;

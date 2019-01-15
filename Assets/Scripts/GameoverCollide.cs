@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class GameoverCollide : UnityEngine.MonoBehaviour {
+public class GameoverCollide : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

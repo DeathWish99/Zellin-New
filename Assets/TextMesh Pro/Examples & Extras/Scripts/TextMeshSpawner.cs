@@ -5,7 +5,7 @@ using System.Collections;
 namespace TMPro.Examples
 {
     
-    public class TextMeshSpawner : UnityEngine.MonoBehaviour
+    public class TextMeshSpawner : MonoBehaviour
     {
 
         public int SpawnType = 0;

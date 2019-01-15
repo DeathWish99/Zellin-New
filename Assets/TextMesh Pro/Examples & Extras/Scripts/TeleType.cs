@@ -5,7 +5,7 @@ using System.Collections;
 namespace TMPro.Examples
 {
     
-    public class TeleType : UnityEngine.MonoBehaviour
+    public class TeleType : MonoBehaviour
     {
 
 

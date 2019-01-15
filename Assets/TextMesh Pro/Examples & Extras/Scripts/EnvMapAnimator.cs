@@ -2,7 +2,7 @@
 using System.Collections;
 using TMPro;
 
-public class EnvMapAnimator : UnityEngine.MonoBehaviour {
+public class EnvMapAnimator : MonoBehaviour {
 
     //private Vector3 TranslationSpeeds;
     public Vector3 RotationSpeeds;

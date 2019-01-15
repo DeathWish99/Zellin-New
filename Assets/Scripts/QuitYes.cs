@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class QuitYes : UnityEngine.MonoBehaviour {
+public class QuitYes : MonoBehaviour {
 
     public void Quit()
     {

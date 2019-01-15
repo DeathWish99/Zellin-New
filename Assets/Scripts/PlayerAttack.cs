@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAttack : UnityEngine.MonoBehaviour
+public class PlayerAttack : MonoBehaviour
 {
 
     private float timeBtwAttack;
