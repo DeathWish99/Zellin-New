@@ -13,11 +13,12 @@ public class LoadScreenOnClick : MonoBehaviour {
         //SceneManager.LoadScene(currScene);
         if (currScene != 6)
         {
-            SceneManager.LoadScene(currScene + 1);
+            SceneManager.LoadScene(currScene=currScene + 1);
+            
         }
         else
         {
-            SceneManager.LoadScene(currScene + 2);
+            SceneManager.LoadScene(currScene=currScene + 2);
         }
     }
 }
