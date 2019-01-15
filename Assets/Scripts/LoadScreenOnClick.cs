@@ -2,8 +2,8 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class LoadScreenOnClick : Gate {
-
+public class LoadScreenOnClick : MonoBehaviour {
+    public int currScene = SceneManager.GetActiveScene().buildIndex;
     public void LoadByIndex(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
@@ -13,12 +13,11 @@ public class LoadScreenOnClick : Gate {
         //SceneManager.LoadScene(currScene);
         if (currScene != 6)
         {
-            SceneManager.LoadScene(currScene=currScene + 1);
-            
+            SceneManager.LoadScene(currScene + 1);
         }
         else
         {
-            SceneManager.LoadScene(currScene=currScene + 2);
+            SceneManager.LoadScene(currScene + 2);
         }
     }
 }
