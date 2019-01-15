@@ -18,14 +18,15 @@ public class Gate : MonoBehaviour
     {
         int currScene = SceneManager.GetActiveScene().buildIndex;
         LevelData.NextLevel();
-        if (currScene != 6)
+        SceneManager.LoadScene(11);
+        /*if (currScene != 6)
         {
             SceneManager.LoadScene(currScene + 1);
         }
         else
         {
             SceneManager.LoadScene(currScene + 2);
-        }
+        }*/
 
     }
 }

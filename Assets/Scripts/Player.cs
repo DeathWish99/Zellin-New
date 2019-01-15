@@ -92,7 +92,7 @@ public class Player : MonoBehaviour {
         if (gc.playerHealth <= 0)
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(10);
+            SceneManager.LoadScene(7);
         }
 
         //attack :
