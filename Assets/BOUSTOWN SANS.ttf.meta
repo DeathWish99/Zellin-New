@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b92b5490dee744c4ea6c51c814d0bd91
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Boustown Sans
+  fontNames:
+  - Boustown Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: af18b838527597a4899131a54f468054, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
