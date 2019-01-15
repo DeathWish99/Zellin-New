@@ -5128,7 +5128,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7149,7 +7149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ccabfd6a0e26ad4e97eee09e5d1daa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currScene: 0
 --- !u!61 &1514930389
 BoxCollider2D:
   m_ObjectHideFlags: 0

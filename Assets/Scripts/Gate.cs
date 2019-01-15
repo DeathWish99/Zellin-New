@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Gate : MonoBehaviour
 {
-    public int currScene = SceneManager.GetActiveScene().buildIndex;
+    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,9 +24,5 @@ public class Gate : MonoBehaviour
 
     }
     
-<<<<<<< HEAD
     
-=======
- 
->>>>>>> parent of d792143... Revert "a"
 }
