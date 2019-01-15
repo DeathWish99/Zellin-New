@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class SplashScreen : MonoBehaviour {
+public class SplashScreen : UnityEngine.MonoBehaviour {
     public Image splashImage;
     public Text splashText;
 

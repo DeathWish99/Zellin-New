@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.EventSystems;
 
-public class SelectOnInput : MonoBehaviour {
+public class SelectOnInput : UnityEngine.MonoBehaviour {
 
     public EventSystem eventSystem;
     public GameObject selectedObject;

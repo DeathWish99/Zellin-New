@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class AudioON : MonoBehaviour
+public class AudioON : UnityEngine.MonoBehaviour
 {
     public Button btnOn;
     public Button btnOff;

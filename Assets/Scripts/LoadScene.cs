@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
  * 5 November 2018
  */
 
-public class LoadScene : MonoBehaviour {
+public class LoadScene : UnityEngine.MonoBehaviour {
     public int index = 3;
 	
     public void ChangeScene(int index) { 

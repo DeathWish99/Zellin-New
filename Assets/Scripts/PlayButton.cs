@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class PlayButton : MonoBehaviour {
+public class PlayButton : UnityEngine.MonoBehaviour {
     public void Play()
     {
         SceneManager.LoadScene(3);

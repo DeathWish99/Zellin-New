@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Gate : MonoBehaviour
+public class MonoBehaviour : UnityEngine.MonoBehaviour
 {
     public int currScene = SceneManager.GetActiveScene().buildIndex;
 

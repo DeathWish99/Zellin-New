@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Player : MonoBehaviour {
+public class Player : UnityEngine.MonoBehaviour {
     //movement :
     public float speed = 100.0f;
     public float jumpForce = 1.0f;
