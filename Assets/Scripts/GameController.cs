@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
     }
     void UpdateHealth()
     {
-        healthText.text = "Health: " + playerHealth;
+            healthText.text = "Health: " + playerHealth;
     }
     
 }
