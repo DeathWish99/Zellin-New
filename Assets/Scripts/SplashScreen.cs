@@ -6,7 +6,7 @@ using System.Collections;
 public class SplashScreen : MonoBehaviour {
     public Image splashImage;
     public Text splashText;
-    public int level;
+
 
     void FadeIn()
     {
@@ -28,7 +28,7 @@ public class SplashScreen : MonoBehaviour {
         yield return new WaitForSeconds(1.5f);
         FadeOut();
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene(1);
     }
     
    

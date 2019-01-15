@@ -8,9 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SplashScreenLogo.unity
     guid: 7f838995cbab2fc4a9883e16bc176837
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: f4c0503f3c496c54d9be42a9b0fa6582
