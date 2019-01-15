@@ -29,7 +29,6 @@ public class SplashScreen : MonoBehaviour {
         FadeOut();
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene(1);
-
     }
     
    
