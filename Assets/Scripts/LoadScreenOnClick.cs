@@ -3,8 +3,8 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class LoadScreenOnClick : MonoBehaviour {
-    int currScene=2;
-
+    public int currScene = 2;
+        //SceneManager.GetActiveScene().buildIndex;
     public void LoadByIndex(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
