@@ -116,8 +116,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4224245}
-  - component: {fileID: 4224244}
   - component: {fileID: 4224243}
+  - component: {fileID: 4224244}
   m_Layer: 10
   m_Name: BatasSuci (3)
   m_TagString: Untagged
@@ -152,7 +152,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 266.80157, y: 0.33315706}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -163,7 +163,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 3.7763672, y: 1.6663141}
   m_EdgeRadius: 0
 --- !u!4 &4224245
 Transform:
@@ -4521,8 +4521,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 339844941}
-  - component: {fileID: 339844940}
   - component: {fileID: 339844939}
+  - component: {fileID: 339844943}
+  - component: {fileID: 339844942}
+  - component: {fileID: 339844940}
   m_Layer: 10
   m_Name: BatasSuci (2)
   m_TagString: Untagged
@@ -4557,7 +4559,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 508.7076, y: 0.3407812}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4568,7 +4570,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 30.354187, y: 1.6815624}
   m_EdgeRadius: 0
 --- !u!4 &339844941
 Transform:
@@ -4583,6 +4585,56 @@ Transform:
   m_Father: {fileID: 85792933}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &339844942
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 339844938}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 187.0811, y: 1.1804166}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.31427, y: 3.3608332}
+  m_EdgeRadius: 0
+--- !u!61 &339844943
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 339844938}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 103.73071, y: 1.2463796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.6072998, y: 1.562881}
+  m_EdgeRadius: 0
 --- !u!1 &345125875
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,8 +5059,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 442246196}
-  - component: {fileID: 442246195}
   - component: {fileID: 442246194}
+  - component: {fileID: 442246195}
   m_Layer: 10
   m_Name: BatasSuci (9)
   m_TagString: Untagged
@@ -5043,7 +5095,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 658.4041, y: -1.5929375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5054,7 +5106,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 3.3031006, y: 1.647974}
   m_EdgeRadius: 0
 --- !u!4 &442246196
 Transform:
@@ -5173,7 +5225,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 513466558}
-  - component: {fileID: 513466557}
   - component: {fileID: 513466556}
   m_Layer: 10
   m_Name: BatasSuci (8)
@@ -5197,31 +5248,6 @@ CapsuleCollider2D:
   m_Offset: {x: -227.9249, y: -0.096306205}
   m_Size: {x: 456.3498, y: 0.80738884}
   m_Direction: 0
---- !u!61 &513466557
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 513466555}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &513466558
 Transform:
   m_ObjectHideFlags: 0
@@ -5649,8 +5675,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 663524283}
-  - component: {fileID: 663524282}
   - component: {fileID: 663524281}
+  - component: {fileID: 663524282}
   m_Layer: 10
   m_Name: BatasSuci (4)
   m_TagString: Untagged
@@ -5685,7 +5711,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 361.17715, y: 0.9657961}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5696,7 +5722,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 4.2926636, y: 1.8584852}
   m_EdgeRadius: 0
 --- !u!4 &663524283
 Transform:
@@ -5954,6 +5980,8 @@ GameObject:
   - component: {fileID: 736833806}
   - component: {fileID: 736833805}
   - component: {fileID: 736833804}
+  - component: {fileID: 736833808}
+  - component: {fileID: 736833807}
   m_Layer: 10
   m_Name: BatasSuci (1)
   m_TagString: Untagged
@@ -5988,7 +6016,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -44.806114, y: 0.5412822}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5999,7 +6027,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 3.3985748, y: 2.0825644}
   m_EdgeRadius: 0
 --- !u!4 &736833806
 Transform:
@@ -6014,6 +6042,56 @@ Transform:
   m_Father: {fileID: 85792933}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &736833807
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736833803}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 127.82832, y: 1.1729501}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.3926697, y: 3.3459003}
+  m_EdgeRadius: 0
+--- !u!61 &736833808
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736833803}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 22.258778, y: 1.12797}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 13.633583, y: 2.654356}
+  m_EdgeRadius: 0
 --- !u!1 &753344094
 GameObject:
   m_ObjectHideFlags: 0
@@ -6022,7 +6100,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 753344097}
-  - component: {fileID: 753344096}
   - component: {fileID: 753344095}
   m_Layer: 10
   m_Name: BatasSuci (6)
@@ -6046,31 +6123,6 @@ CapsuleCollider2D:
   m_Offset: {x: -227.9249, y: -0.096306205}
   m_Size: {x: 456.3498, y: 0.80738884}
   m_Direction: 0
---- !u!61 &753344096
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 753344094}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &753344097
 Transform:
   m_ObjectHideFlags: 0
@@ -8743,7 +8795,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1859791331}
-  - component: {fileID: 1859791330}
   - component: {fileID: 1859791329}
   m_Layer: 10
   m_Name: BatasSuci (5)
@@ -8767,31 +8818,6 @@ CapsuleCollider2D:
   m_Offset: {x: -227.9249, y: -0.096306205}
   m_Size: {x: 456.3498, y: 0.80738884}
   m_Direction: 0
---- !u!61 &1859791330
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1859791328}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4, y: 1}
-  m_EdgeRadius: 0
 --- !u!4 &1859791331
 Transform:
   m_ObjectHideFlags: 0
@@ -9075,8 +9101,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2011828278}
-  - component: {fileID: 2011828277}
   - component: {fileID: 2011828276}
+  - component: {fileID: 2011828280}
+  - component: {fileID: 2011828279}
+  - component: {fileID: 2011828277}
   m_Layer: 10
   m_Name: BatasSuci (7)
   m_TagString: Untagged
@@ -9111,7 +9139,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 796.85815, y: -1.6364645}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9122,7 +9150,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 1}
+  m_Size: {x: 3.7080078, y: 1.7390468}
   m_EdgeRadius: 0
 --- !u!4 &2011828278
 Transform:
@@ -9137,6 +9165,56 @@ Transform:
   m_Father: {fileID: 85792933}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2011828279
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011828275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 641.84985, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.491516, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &2011828280
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011828275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 549.4315, y: -0.90249634}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 38.486816, y: 2.8049927}
+  m_EdgeRadius: 0
 --- !u!1 &2118627445
 GameObject:
   m_ObjectHideFlags: 0
