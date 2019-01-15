@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
     public float speed = 100.0f;
     public float jumpForce = 1.0f;
     public float doubleJumpCooldown = 0.1f;
-    public int indexScene = 3;
+    public int indexScene = 2;
     public Camera cam;
     public GameController gc;
     

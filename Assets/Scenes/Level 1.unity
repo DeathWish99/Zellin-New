@@ -803,7 +803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02efed3b398624f99a07e40e735fc6a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 70
   jumpForce: 40
   doubleJumpCooldown: 0.1
   indexScene: 2

@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 5.unity
     guid: 6ae384403a8e3a54980dc4b29e813d58
   - enabled: 1
+    path: Assets/Scenes/TryAgain.unity
+    guid: ca6634b098f3e71478ae3db3d6e354a5
+  - enabled: 1
     path: Assets/Scenes/Level 6.unity
     guid: 56f737f3852455a45b4192aaeebd61a1
   - enabled: 1
@@ -35,7 +38,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YouWin.unity
     guid: 8987f66f6543eb247aa5ed03de2a9c7b
-  - enabled: 1
-    path: Assets/Scenes/TryAgain.unity
-    guid: ca6634b098f3e71478ae3db3d6e354a5
   m_configObjects: {}
